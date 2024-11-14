@@ -8,6 +8,7 @@ namespace Atividade_Veiculo.Interface
 {
     public interface IVeiculo
     {
-
+       void ExibirDetalhes();
+       double CalcularConsumo(double distancia);
     }
 }
