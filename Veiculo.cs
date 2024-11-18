@@ -31,6 +31,7 @@ namespace Atividade_Veiculo
        public virtual double CalcularConsumo(double distancia)
         {
             return distancia / ConsumoPorKm;
+
         }
     }
 }

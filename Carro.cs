@@ -12,6 +12,7 @@ namespace Atividade_Veiculo
 
         public override void ExibirDetalhes()
         {
+          Console.WriteLine("------------------------Carro----------------------------");
           base.ExibirDetalhes();
           Console.WriteLine($"Tipo: {tipo}");
         }
