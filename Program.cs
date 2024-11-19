@@ -1,5 +1,6 @@
 ﻿using Atividade_Veiculo;
 using Atividade_Veiculo.Interface;
+using Core.Entidade;
 
 Carro carro = new Carro { Modelo = "fusca", Ano = 1996, CapacidadeTanque = 12 , ConsumoPorKm = 10, Tipo = "Híbrido" };
 
